@@ -15,8 +15,8 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: [
             _heroSection(context),  
-            // _sectionTitle("New Arrival"),  
-            // _newArrivalGrid(context),  
+            _sectionTitle("New Arrival"),  
+            _newArrivalGrid(context),  
           ],
         ),
       ),
@@ -165,4 +165,4 @@ class HomePage extends StatelessWidget {
           style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
     );
   }
-}
+}    
